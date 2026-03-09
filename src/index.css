@@ -18,10 +18,22 @@
 }
 
 .container {
-  flex: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 50px 100px;
+  row-gap: 20px;
+}
+
+.carousel-image{
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-buttons-prev{
+  margin-right: 20px;
 }
 
 
